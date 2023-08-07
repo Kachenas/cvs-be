@@ -6,8 +6,9 @@
 - git clone git@github.com:Kachenas/cvs-be.git
 - type cd cvs-be to go inside that folder
 - rename .env copy to .env
+- run composer install
 - run php artisan config:clear && php artisan config:cache && php artisan optimize:clear
-- type php artisan passport:migrate
+- type php artisan:migrate
 - type php artisan passport:install
 - php artisan db:seed
 - php artisan test - to run the test.
